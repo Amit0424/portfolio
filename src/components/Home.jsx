@@ -1,6 +1,6 @@
 import React, { forwardRef } from "react";
 import Photo from "../assets/avatar.png";
-import Resume from "../assets/VikashResume.pdf";
+import Resume from "../assets/Amit_Resume.pdf";
 
 const Home = forwardRef((props, ref) => {
   const AboutScroll = (e) => {

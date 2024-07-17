@@ -78,7 +78,7 @@ const Projects = forwardRef((props, ref) => {
                               })}
                               <div className="service_content border border-solid border-black border-opacity-10 rounded-xl bg-containerColor dark:bg-containerColorDarkMode px-4 sm:px-6 py-8 my-auto">
                                    <h3 className="text-normal mb-4 font-bold uppercase text-titleColor dark:text-titleColorDarkMode">Find out more projects </h3>
-                                   <a href='https://github.com/Vikashup2109?tab=repositories' className="text-normal mb-4 space-x-4 cursor-pointer text-titleColor dark:text-titleColorDarkMode" target="_blank" rel="noreferrer">
+                                   <a href='https://github.com/Amit0424?tab=repositories' className="text-normal mb-4 space-x-4 cursor-pointer text-titleColor dark:text-titleColorDarkMode" target="_blank" rel="noreferrer">
                                         <span>Check Out here</span>
                                         <i className="uil uil-arrow-right text-h3 hover:translate-x-1"></i>
                                         <i className="uil uil-github-alt font-bold text-h2"></i>
