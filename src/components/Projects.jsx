@@ -3,12 +3,12 @@ import React, { forwardRef } from 'react'
 const Projects = forwardRef((props, ref) => {
      const projects = {
           1: {
-               'heading': 'PHYSIQUE: A GYM SUPPLIMENT DELIVERY WEBSITE',
-               'description-1': 'A marketplace site where gym-supplements can be found and can also order.',
-               'description-2': 'Implemented the dynamic content management through Sanity.',
-               'tech-used': ' JavaScript | NextJS | Sanity | Zustand',
-               'demo-link': 'https://physique.vercel.app',
-               'github-link': 'https://github.com/Vikashup2109/Physique'
+               'heading': 'COFFEE CAFE APP: A PLACE TO ORDER COFFEE',
+               'description-1': 'Implemented a real-time coffee ordering feature, allowing users to place orders 15 minutes before arriving at the cafe.',
+               'description-2': 'Created a global chat room for users to engage in conversations.',
+               'tech-used': ' Flutter | Dart | Firebase | FireStore',
+               'demo-link': '',
+               'github-link': 'https://github.com/Amit0424/Coffee_Cafe_App.git'
           },
           2: {
                'heading': 'PHOTU STUDIO: A PLACE TO FIND ROYALTY FREE PHOTOS',
@@ -19,12 +19,12 @@ const Projects = forwardRef((props, ref) => {
                'github-link': 'https://github.com/Vikashup2109/Photus'
           },
           3: {
-               'heading': 'Vikash: My Personal Portfolio Website.',
+               'heading': 'Amit: My Personal Portfolio Website.',
                'description-1': 'A place where one can find all professional details about me.',
                'description-2': 'Used MongoDB database to update details.',
                'tech-used': 'JavaScript | React | TailwindCSS | MongoDB ',
                'demo-link': '',
-               'github-link': ''
+               'github-link': 'https://github.com/Amit0424/portfolio.git'
           },
           4: {
                'heading': 'pc-beast: A one pager portfolio website.',
