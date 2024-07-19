@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react'
-import Photo from '../assets/avatar2.png';
+import Photo from '../assets/amit_photo2.jpg';
 
 
 const About = forwardRef((props, ref) => {
