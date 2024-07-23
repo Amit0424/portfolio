@@ -1,4 +1,5 @@
 import React, { forwardRef } from 'react'
+import CoffeeCafe from '../assets/coffee_cafe.apk'
 
 const Projects = forwardRef((props, ref) => {
      const projects = {
@@ -66,7 +67,7 @@ const Projects = forwardRef((props, ref) => {
                                                   <h3 className="tech_used text-titleColor text-small font-bold text-titleColor dark:text-titleColorDarkMode">{project['tech-used']}</h3>
                                              </div>
                                              <div className='flex items-center pt-2 justify-between'>
-                                                  <a href={project['demo-link']} className="inline-block bg-titleColor/90 dark:bg-titleColorDarkMode/90 py-1 px-3 rounded-xl button--flex text-containerColor dark:text-containerColorDarkMode" target="_blank" rel="noreferrer">
+                                                  <a download={project['demo-link'].length === 0 ? 'coffee_cafe.apk' : ''} href={project['demo-link'].length === 0 ? CoffeeCafe : project['demo-link']} className="inline-block bg-titleColor/90 dark:bg-titleColorDarkMode/90 py-1 px-3 rounded-xl button--flex text-containerColor dark:text-containerColorDarkMode" target="_blank" rel="noreferrer">
                                                        <span>Demo</span>
                                                   </a>
                                                   <a href={project['github-link']} className="inline-block bg-titleColor/90 dark:bg-titleColorDarkMode/90 py-1 px-3 rounded-xl button--flex text-containerColor dark:text-containerColorDarkMode" target="_blank" rel="noreferrer">
